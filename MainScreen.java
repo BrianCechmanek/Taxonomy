@@ -91,11 +91,11 @@ public class MainScreen extends Application {
 				query[4] = buttonPodia.getValue();
 				query[5] = userInputText.getText();         // note that currently this will be a compound string. later I'll split and handle differently
 
-				System.out.println("Value of query is: ");
+				System.out.println("query array is: ");
 				for (String item : query) {
 					System.out.println(item);
 				}
-
+				System.out.println(query.toString());
 
 				// TODO make handler for null input
 			}
